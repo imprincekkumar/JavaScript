@@ -6,7 +6,7 @@ accountCity="Patna"
 let accountState;//undefined,value of variable need to be givem other wise it wil throw am undefined error
 
  
-// accountId=2 //Not Allowed
+accountId=2 //Not Allowed because the values declared under const can't be overwriten
 accountEmail="pk87@gmail.com"
 accountPassword="212121"
 accountCity="Banglore"//this change happened because js is a safe language,variables can be declared even wthout declaring variable type
