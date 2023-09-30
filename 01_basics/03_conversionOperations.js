@@ -26,6 +26,66 @@ let valueInNumber = Number(score1);
 console.log(valueInNumber);
 
 
+// ************************* Operations *****************************
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+console.log(2+2) //addition
+console.log(2-2) //subtraction
+console.log(2*2) //multiplication
+console.log(2/2) //division
+console.log(2**2) //power
+console.log(2%2) //modulo
+
+let str1="Hello"
+let str2="Prince"
+
+let str3=str1 + str2
+console.log(str3);
+
+console.log(1+"2");
+console.log("1"+2);
+console.log("1"+2+2);
+console.log(2+2+"2");
+
+console.log(true);
+console.log(+true);
+console.log(+"");
+
+let gameCounter = 100;
+gameCounter++;
+++gameCounter
+console.log(gameCounter);
+console.log(gameCounter);
+
+//PostFix Increment
+/*If used postfix, with operator after operand (for example, x++), 
+the increment operator increments and returns the value before incrementing.
+*/
+
+let x = 3;
+const y = x++;
+console.log(y);
+console.log(x);
+//o/p x is 4; y is 3
+
+
+//Prefix Increment
+/*If used prefix, with operator before operand (for example, ++x),
+ the increment operator increments and returns the value after incrementing.
+
+*/
+
+let x = 3;
+const y = ++x;
+console.log(y);
+console.log(x);
+
+//o/p x is 4; y is 4
+
+
 
 /* A number can be converted into string
 */
