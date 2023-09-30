@@ -26,6 +26,37 @@ let valueInNumber = Number(score1);
 console.log(valueInNumber);
 
 
+/* A number can be converted into string
+*/
+
+let valueInNumber = String(score)
+console.log(valueInNumber);
+console.log(typeof valueInNumber);
+
+
+
+/* A number can be converted into a boolean value*/
+
+let isLoggedIn=1;
+let booleanIsLoggedIn=Boolean(isLoggedIn);
+console.log(typeof booleanIsLoggedIn);
+console.log(booleanIsLoggedIn);
+
+
+
+/* When An empty string is converted into boolean it gives false    */
+let isLoggedIn="";
+let booleanIsLoggedIn=Boolean(isLoggedIn);
+console.log(typeof booleanIsLoggedIn);
+console.log(booleanIsLoggedIn);
+
+
+/*When a string is converted to boolean it gives true*/
+let isLoggedIn="Prince";
+let booleanIsLoggedIn=Boolean(isLoggedIn);
+console.log(typeof booleanIsLoggedIn);
+console.log(booleanIsLoggedIn);
+
 // ************************* Operations *****************************
 
 let value = 3;
@@ -85,37 +116,5 @@ console.log(x);
 
 //o/p x is 4; y is 4
 
-
-
-/* A number can be converted into string
-*/
-
-let valueInNumber = String(score)
-console.log(valueInNumber);
-console.log(typeof valueInNumber);
-
-
-
-/* A number can be converted into a boolean value*/
-
-let isLoggedIn=1;
-let booleanIsLoggedIn=Boolean(isLoggedIn);
-console.log(typeof booleanIsLoggedIn);
-console.log(booleanIsLoggedIn);
-
-
-
-/* When An empty string is converted into boolean it gives false    */
-let isLoggedIn="";
-let booleanIsLoggedIn=Boolean(isLoggedIn);
-console.log(typeof booleanIsLoggedIn);
-console.log(booleanIsLoggedIn);
-
-
-/*When a string is converted to boolean it gives true*/
-let isLoggedIn="Prince";
-let booleanIsLoggedIn=Boolean(isLoggedIn);
-console.log(typeof booleanIsLoggedIn);
-console.log(booleanIsLoggedIn);
 
 
